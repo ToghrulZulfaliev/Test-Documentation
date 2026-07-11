@@ -93,7 +93,7 @@ Testing can finish when:
 
 | Risk | Impact | Mitigation |
 |------|--------|------------|
-| Applications are not displayed | Tələbə müraciətləri görünmür və test ssenarilərinin icrası bloklanır. | Testdən əvvəl tətbiqlərin yaradıldığını, API və Database məlumatlarının düzgün yükləndiyini yoxlamaq, problem olduqda development komandası ilə əlaqə saxlamaq. |
+| Müraciətlər göstərilmir | Tələbə müraciətləri görünmür və test ssenarilərinin icrası bloklanır. | Testdən əvvəl tətbiqlərin yaradıldığını, API və Database məlumatlarının düzgün yükləndiyini yoxlamaq, problem olduqda development komandası ilə əlaqə saxlamaq. |
 | Billing (ödəniş) prosesinin düzgün işləməməsi | Ödəniş ssenarilərinin test edilməsi mümkün olmaya bilər və istifadəçilər ödənişlərini uğurla tamamlaya bilməzlər. | Testə başlamazdan əvvəl Billing xidmətinin işlək vəziyyətdə olduğunu yoxlamaq, test/mock ödəniş mühitindən istifadə etmək və problem aşkar edildikdə development komandasını məlumatlandırmaq. |
 
 ---
